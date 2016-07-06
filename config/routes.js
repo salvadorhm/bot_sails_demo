@@ -37,6 +37,9 @@ module.exports.routes = {
   },
   '/about': {
     view: 'cool/about'
+  },
+  '/data': {
+    view: 'cool/saludo'
   }
 
   /***************************************************************************

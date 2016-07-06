@@ -1,0 +1,25 @@
+<script type="text/javascript">
+    function saludo(){
+        var d = document;
+        var name = d.getElementById("name").value;
+        var year = d.getElementById("year").value;
+        var yearn = parseInt(year);
+        var age = 2016 - yearn;
+
+        var output = d.getElementById("output");
+        output.innerHTML = "Hola " + name + " tienes " + age +" años";
+        console.log("Funciona");    
+}
+</script>
+
+<div id='output'>
+</div>
+
+<div id='controls'>
+    <label id='l_name'>Nombre</label>
+    <input type="text" id='name'><br>
+    <label id='l_year'>Año de nacimento</label>
+    <input type="number" id="year" min="1950" max="2016" step="1"><br>
+
+    <button onclick="javascript:saludo();">Enviar</button>
+</div>
