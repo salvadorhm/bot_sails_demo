@@ -1,8 +1,8 @@
 {
-  "name": "sailsDemo",
+  "name": "bot_sails_demo",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "a Sails application with Telegram bot",
   "keywords": [],
   "dependencies": {
     "ejs": "2.3.4",
@@ -31,8 +31,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sax/sailsDemo.git"
+    "url": "git://github.com/salvadorhm/bot_sails_demo.git"
   },
-  "author": "sax",
-  "license": ""
+  "author": "Salvador HM",
+  "license": "MIT"
 }

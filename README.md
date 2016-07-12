@@ -1,3 +1,3 @@
-# sailsDemo
+# bot_sails_demo
 
-a [Sails](http://sailsjs.org) application
+a [Sails] application with Telegram bot
